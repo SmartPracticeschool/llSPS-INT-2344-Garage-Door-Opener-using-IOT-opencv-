@@ -17,6 +17,6 @@ def videorec():
     cap.release()
     cv2.destroyAllWindows()
     return a
-x=videorec()
-print(x)
+x=videorec() #the file name is stored in x 
+
 
